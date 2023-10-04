@@ -1,0 +1,201 @@
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn
+$ get init
+bash: get: command not found
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn
+$ git init
+Initialized empty Git repository in C:/Users/wa2ou/OneDrive/Bureau/learn/.git/
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git add .
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git commit -m " v1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'wa2ou@Wiam-Gdr.(none)')
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$  git config --global user . email " wiam.guedoiar98@gmail.com"
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git config -- user . name "waiamgdr"
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git commit -m "v1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'wa2ou@Wiam-Gdr.(none)')
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   code1.txt
+        new file:   code2.txt
+
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git commit -m "v1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'wa2ou@Wiam-Gdr.(none)')
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git config --global user.email "wiam.guedoiar98@gmail.com"
+  git config --global user.name "wiam"
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git commit -m "v1"
+[main (root-commit) 4712e21] v1
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 code1.txt
+ create mode 100644 code2.txt
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git branch -M main
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git remote add origin https://github.com/waiamgdr/learn.git
+
+wa2ou@Wiam-Gdr MINGW64 ~/OneDrive/Bureau/learn (main)
+$ git push -u origin main
+
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 211 bytes | 211.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/waiamgdr/learn.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
